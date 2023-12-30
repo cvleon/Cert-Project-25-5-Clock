@@ -1,0 +1,63 @@
+body {
+  background-color: #add8e6;
+  font-size: 34px;
+  font-family: Arial;
+  
+}
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper h2 {
+  margin: 0;
+}
+
+.break-session-length {
+    display: flex;
+    width: 700px;
+    justify-content: space-between;
+}
+
+button {
+  border: none;
+  padding: 8px;
+  font-size: 28px;
+  font-family: Arial;
+  border-radius: 4px;
+}
+
+#button-wrapper {
+  margin-left: 25%;
+}
+
+div > button {
+  color: black;
+  background-color: #ffef99;
+  border-radius: 10px;
+}
+
+div button:nth-child(2) {
+  color: black;
+  background-color: #ffef99;
+}
+
+strong {
+  margin: 0 8px;
+}
+
+.timer {
+  border: 2px solid white;
+  border-radius: 50px;
+  text-align: center;
+  margin: 20px 0;
+  padding-top: 10px;
+}
+
+.timer-wrapper > button {
+  margin-left: 10px
+}
